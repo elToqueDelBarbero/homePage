@@ -4,6 +4,7 @@
   "description": "Inicio de la página principal de la empresa el toque del barbero",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/elToqueDelBarbero/homePage/issues"
   },
-  "homepage": "https://github.com/elToqueDelBarbero/homePage#readme"
+  "homepage": "https://github.com/elToqueDelBarbero/homePage#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
